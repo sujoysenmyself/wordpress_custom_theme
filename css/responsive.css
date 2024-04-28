@@ -98,3 +98,36 @@
         max-width: 1170px;
     }
 }
+
+
+
+/* Menu for mobile is started */
+
+
+@media screen and (max-width: 767px) {
+    ul.navbar-nav li {
+      padding-top: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    ul.navbar-nav li {
+      padding-top: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    ul.navbar-nav li {
+      padding-top: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    ul.navbar-nav li {
+      padding-top: 15px;
+    }
+  }
+
+
+  /* Menu for mobile is ended */
+  
