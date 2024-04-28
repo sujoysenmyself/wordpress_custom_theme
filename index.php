@@ -1,609 +1,654 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html>
 
-        <meta name="description" content="">
-        <meta name="author" content="">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-        <title>Tween Digital Agency HTML Template</title>
+  <title>Esigned</title>
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <!-- slider stylesheet -->
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-icons.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
 
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css">
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Esigned
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/tooplate-tween-agency.css">
-
-<!--
-
-Tooplate 2128 Tween Agency
-
-https://www.tooplate.com/view/2128-tween-agency
-
--->
-
-    </head>
-    
-    <body>
-
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container">
-
-                <a href="index.html" class="navbar-brand">
-                    <i class="bi-layers"></i> Tween
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="do.html"> What we do </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+              </ul>
+              <div class="user_option">
+                <a href="">
+                  <img src="images/user.png" alt="">
                 </a>
-
-                <a href="#" class="custom-btn btn btn-lg d-lg-none ms-auto me-4">
-                    Download
-                    <i class="bi-download ms-2"></i>
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-5">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_1">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_2">About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_3">Services</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_4">Our Work</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_5">Pricing</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section_6">Contact</a>
-                        </li>
-                    </ul>
-
-                    <div class="ms-auto d-none d-lg-block">
-                        <a href="#" class="custom-btn btn btn-lg">
-                            Download
-                            <i class="bi-download ms-2"></i>
-                        </a>
-                    </div>
-                </div>
+                <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+              </div>
             </div>
+          </div>
         </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col">
+                  <div class="detail-box">
+                    <div>
+                      <h2>
+                        welcome to
 
-        <main>
-
-            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-8 col-12">
-                            <div class="heroText">
-                                <h1 class="text-white mb-lg-5 mb-4">We are ready to serve for your digital marketing</h1>
-
-                                <a href="https://www.youtube.com/watch?v=AYaHuZ4BB6Y" class="popup-youtube play-icon-wrap d-flex align-items-center">
-                                    <i class="bi-play play-icon"></i>
-
-                                    <small>1:49 Minutes</small>
-                                </a>
-                            </div>
-                        </div>
-
+                      </h2>
+                      <h1>
+                        web agency
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                      </p>
+                      <div class="">
+                        <a href="">
+                          Contact us
+                        </a>
+                      </div>
                     </div>
+                  </div>
                 </div>
-
-                <div class="overlay"></div>
-            </section>
-
-            <section class="about section-padding" id="section_2">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12">
-                            <h2 class="mb-5">Digital Happiness</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12 ms-lg-auto mb-5 mb-lg-0">
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-intro-tab" data-bs-toggle="tab" data-bs-target="#nav-intro" type="button" role="tab" aria-controls="nav-intro" aria-selected="true">Introduction</button>
-
-                                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-
-                                    <button class="nav-link" id="nav-faq-tab" data-bs-toggle="tab" data-bs-target="#nav-faq" type="button" role="tab" aria-controls="nav-faq" aria-selected="false">FAQs</button>
-                                </div>
-                            </nav>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-intro" role="tabpanel" aria-labelledby="nav-intro-tab">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/webpage-browser-digital-icon-symbols-concept.jpg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-5 col-12 m-auto">
-                                            <h3 class="mb-3">Brand Creation</h3>
-
-                                            <p>We want you to be happy with our Tween Agency services. Our digital agency is ready to serve you to grow your business in a healthy way.</p>
-
-                                            <p>This is Bootstrap 5 HTML template for your website provided by <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a>. You can download, edit and use this layout for your company website.</p>
-                                            
-                                            <p>Image credits go to <a rel="nofollow" href="https://freepik.com/" target="_blank">FreePik</a> and <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a> for images used in this template. We really appreciate these stock image websites for providing free photos to everyone.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <div class="row">
-                                        <div class="col-lg-5 col-12 m-auto">
-                                            <h3 class="mb-3">Marie Smarty, CEO</h3>
-
-                                            <p>Our priority is your happiness working together with us. We guarantee you the best service quality from us. Feel free to talk to us via email, twitter, or linkedin.</p>
-
-                                            <ul class="social-icon mt-lg-5 mt-3">
-                                                <li class="me-3"><strong>Where to find?</strong></li>
-
-                                                <li><a href="https://twitter.com/search?q=tooplate" class="social-icon-link bi-twitter"></a></li>
-
-                                                <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
-
-                                                <li><a href="#" class="social-icon-link bi-envelope"></a></li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="col-lg-6 col-12 mt-lg-0 mt-4">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/dream-about-working-corporation-became-true.jpg" class="img-fluid" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-faq-tab">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/php-programming-html-coding-cyberspace-concept.jpg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-5 col-12 m-auto">
-                                            <h3 class="mb-3">Frequenlty Asked Questions</h3>
-
-                                            <div class="accordion" id="accordionGeneral">
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralOne" aria-expanded="true" aria-controls="accordionGeneralOne">
-                                                        What is Tween Agency?
-                                                        </button>
-                                                    </h2>
-
-                                                    <div id="accordionGeneralOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionGeneral">
-
-                                                        <div class="accordion-body">
-                                                            <p class="large-paragraph"><strong>Tween Agency</strong> is free HTML template powered by Bootstrap 5 CSS framework. This means you can use all standard CSS classes provided by Bootstrap version 5 to customize your CSS layout.</p>
-
-                                                            <p class="large-paragraph">You are allowed to use it for your clients. You are not allowed to redistribute this template ZIP file on any other template website. Please <a href="https://www.tooplate.com/contact" target="_blank"><strong>contact Tooplate</strong></a> for more info.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingTwo">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralTwo" aria-expanded="false" aria-controls="accordionGeneralTwo">
-                                                        What are available services?
-                                                        </button>
-                                                    </h2>
-
-                                                    <div id="accordionGeneralTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionGeneral">
-
-                                                        <div class="accordion-body">
-                                                            <p class="large-paragraph">We provide full digital marketing services for all various aspects of your company's web presence and social medias. You have 100% peace of mind for your company by working with us.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="accordion-item">
-                                                    <h2 class="accordion-header" id="headingThree">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralThree" aria-expanded="false" aria-controls="accordionGeneralThree">
-                                                        How many successful projects?
-                                                        </button>
-                                                    </h2>
-
-                                                    <div id="accordionGeneralThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionGeneral">
-
-                                                        <div class="accordion-body">
-                                                            <p class="large-paragraph">We have over 280+ successful projects for different companies. There are great experiences of working together with different clients all over the world.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="services section-padding" id="section_3">
-                <div class="container">
-                    <div class="row">
-
-                        <h2 class="mb-5 text-center">Digital Services</h2>
-
-                            <div class="col-lg-4 col-12 d-flex bg-primary p-0">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_Online_page_re_lhgx.svg" class="img-fluid services-image" alt="">
-                            </div>
-
-                            <div class="col-lg-4 col-12 p-0">
-                                <div class="services-info custom-icon-left paddingText">
-                                
-                                    <h4 class="">UI Design</h4>
-
-                                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing industry</p>
-
-                                    <a class="custom-btn custom-bg-dark btn" href="#">Learn More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-12 d-flex bg-warning p-0">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_online_transactions_02ka.svg" class="img-fluid services-image" alt="">
-                            </div>
-
-                            <div class="col-lg-4 col-12 p-0 order-lg-0 order-sm-5">
-                          
-                                <div class="services-info custom-icon-right paddingText order-lg-0 order-sm-2">
-                                
-                                    <h4 class="">Marketing</h4>
-
-                                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing industry</p>
-
-                                    <a class="custom-btn custom-bg-dark btn" href="#">Learn More</a>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-12 d-flex bg-success p-0 order-lg-0 order-sm-4">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_content_team_3epn.svg" class="img-fluid services-image" alt="">
-                            </div>
-
-                            <div class="col-lg-4 col-12 p-0">
-
-                                <div class="services-info custom-icon-top paddingText">
-                            
-                                    <h4 class="">Ecommerce</h4>
-
-                                    <p class="mb-4">Lorem Ipsum is simply dummy text of the printing industry</p>
-
-                                    <a class="custom-btn custom-bg-dark btn" href="#">Learn More</a>
-                                </div>
-                            </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="work section-padding" id="section_4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="mb-5 text-center">Selected Projects</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="work-thumb mb-4">
-                                <div class="work-image-wrap">
-                                    <a href="images/work/anthony-espinosa-pYQSM-p_0_c-unsplash.jpg" class="image-popup">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/anthony-espinosa-pYQSM-p_0_c-unsplash.jpg" class="img-fluid work-image" alt="">
-                                    </a>
-                                </div>
-                                
-                                <div class="work-text-info">
-                                    <small class="work-tag bg-white shadow-lg">Art Direction</small>
-
-                                    <h4 class="work-title">Simple Burger</h4>
-                                </div>
-                            </div> 
-
-                            <div class="work-thumb mb-4">
-                                <div class="work-image-wrap">
-                                    <a href="images/work/samantha-gades-lf2pD--wIUA-unsplash.jpg" class="image-popup">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/samantha-gades-lf2pD--wIUA-unsplash.jpg" class="img-fluid work-image" alt="">
-                                    </a>
-                                </div>
-                                
-                                <div class="work-text-info">
-                                    <small class="work-tag bg-white shadow-lg">Design</small>
-
-                                    <h4 class="work-title">Fitness</h4>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="work-thumb mb-4">
-                                <div class="work-image-wrap">
-                                    <a href="images/work/business-chart-visual-graphics-report-concept.jpg" class="image-popup">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/business-chart-visual-graphics-report-concept.jpg" class="img-fluid work-image" alt="">
-                                    </a>
-                                </div>
-                                
-                                <div class="work-text-info">
-                                    <small class="work-tag bg-white shadow-lg">Web Development</small>
-
-                                    <h4 class="work-title">Data Science</h4>
-                                </div>
-                            </div> 
-
-                            <div class="work-thumb mb-4">
-                                <div class="work-image-wrap">
-                                    <a href="images/work/tyler-nix-HmVQh_EQJhY-unsplash.jpg" class="image-popup">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/tyler-nix-HmVQh_EQJhY-unsplash.jpg" class="img-fluid work-image" alt="">
-                                    </a>
-                                </div>
-                                
-                                <div class="work-text-info">
-                                    <small class="work-tag bg-white shadow-lg">Branding</small>
-
-                                    <small class="work-tag bg-white shadow-lg">Graphic Design</small>
-
-                                    <h4 class="work-title">Health</h4>
-                                </div>
-                            </div> 
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="work-thumb mb-4">
-                                <div class="work-image-wrap">
-                                    <a href="images/work/mos-sukjaroenkraisri-jz8AmJDyhig-unsplash.jpg" class="image-popup">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/mos-sukjaroenkraisri-jz8AmJDyhig-unsplash.jpg" class="img-fluid work-image" alt="">
-                                    </a>
-                                </div>
-                                
-                                <div class="work-text-info">
-                                    <small class="work-tag bg-white shadow-lg">Photography</small>
-
-                                    <h4 class="work-title">Portraits</h4>
-                                </div>
-                            </div> 
-
-                            <div class="work-thumb work-thumb-text">
-                                <div class="">
-                                    <p class="work-title">If you are interested in working together, Say Hi at <strong><a href="#">hi@company.com</a></strong></p>
-                                </div>
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section-padding" id="section_5">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-12">
-                            <h2 class="text-white mb-5 text-center">Tween Marketing Plans</h2>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="pricing-plan bg-white">
-                                <div class="d-flex flex-wrap align-items-center pricing-header">
-                                    <i class="pricing-icon bi-person"></i>
-
-                                    <div class="pricing-name">
-                                        <h4>Sufficient</h4>
-                                    </div>
-
-                                    <div class="pricing-price">
-                                        <h4>$4,600</h4>
-                                    </div>
-
-                                    <small class="pricing-recommend">Recommended Plan</small>
-                                </div>
-
-                                <div class="pricing-body">
-                                    <h5 class="mb-3">Managed Features</h5>
-
-                                    <ul class="pricing-list">
-                                        <li class="pricing-list-item">Fully Digital</li>
-                                        <li class="pricing-list-item">Social Media Managements</li>
-                                        <li class="pricing-list-item">Website Optimizations</li>
-                                        <li class="pricing-list-item">24/7 Phone Calls and Emails</li>
-                                    </ul>
-
-                                    <h5 class="mt-lg-5 mt-4 mb-3">Small to Mid-size Businesses</h5>
-
-                                    <p>Everything you need for your digital marketing stuffs</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-                            <div class="pricing-plan border-0 bg-white shadow-lg">
-                                <div class="d-flex flex-wrap align-items-center pricing-header">
-                                    <i class="pricing-icon bi-briefcase"></i>
-
-                                    <div class="pricing-name">
-                                        <h4>Complete</h4>
-                                    </div>
-
-                                    <div class="pricing-price">
-                                        <h4>$8,200</h4>
-                                    </div>
-                                    
-                                    <small class="pricing-recommend">Ecommerce Plan</small>
-                                </div>
-
-                                <div class="pricing-body">
-                                    <h5 class="mb-3">Fully Featured Work</h5>
-
-                                    <ul class="pricing-list">
-                                        <li class="pricing-list-item">Completely Digital</li>
-                                        <li class="pricing-list-item">Everything managed online</li>
-                                        <li class="pricing-list-item">Full Ecommerce Features</li>
-                                        <li class="pricing-list-item">24/7 Instant Video Chats</li>
-                                    </ul>
-
-                                    <h5 class="mt-lg-5 mt-4 mb-3">High-end Ecommerce Websites</h5>
-
-                                    <p>Fit for your company and ecommerce related stuffs</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="overlay dark-overlay"></div>
-            </section>
-
-            <section class="section-padding" id="section_6">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-8 col-md-10 col-12 mx-auto">
-                            <h2 class="mb-4 text-center">Let's chat</h2>
-
-                            <form class="custom-form" role="form" action="" method="post">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-12 my-2">
-                                        <label class="mb-2" for="name">Full Name</label>
-
-                                        <input type="text" name="name" id="name" class="form-control" required="">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12 my-2">
-                                        <label class="mb-2" for="email">Email Address</label>
-                                        
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" required="">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 col-12 my-2">
-                                        <label class="mb-2" for="subject">How did you know about us?</label>
-
-                                        <select class="form-select form-control" name="subject" id="subject">
-                                            <option selected="">Choose a subject</option>
-                                            <option value="web+search">Website Searches</option>
-                                            <option value="social+media">Social Media</option>
-                                            <option value="others">Others</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-12 my-2">
-                                        <label class="mb-2" for="message">Tell us about the project</label>
-
-                                        <textarea class="form-control" rows="5" id="message" name="message"></textarea>
-                                    
-                                        <button type="submit" class="form-control mt-4" id="submit">Submit</button>
-                                    </div>
-
-                                </div>
-                            </form>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-5 col-12 me-auto mb-4">
-                        <h5 class="text-white mb-3">Newsletter</h5>
-
-                        <form class="custom-form subscribe-form mt-4" role="form">
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-7">                                    
-                                    <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your email address" required="">
-                                </div>
-
-                                <div class="col-lg-4 col-md-4 col-5">                                  
-                                    <button type="submit" class="form-control" id="subscribe">Subscribe</button>
-                                </div>
-
-                            </div>
-                        </form>
-                    </div>
-
-                    <div class="col-lg-2 col-12 mx-auto my-lg-0 my-4">
-                        <h5 class="text-white mb-3">Services</h5>
-
-                        <ul class="footer-menu">
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Digital Marketing</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Creative Ideas</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Branding</a></li>
-
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Video Contents</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-12">
-                        <h5 class="text-white mb-3">Say Hi</h5>
-
-                        <p class="text-white mb-1">Sunderland SR6 0JL, United Kingdom</p>
-
-                        <p><a href="mailto:email@company.com" class="footer-link">email@company.com</a><p>
-                    </div>
-
-                    <div class="site-footer-bottom mt-5">
-                        <div class="row pt-4">
-                            <div class="col-lg-6 col-12">
-                                <p class="copyright-text tooplate-link">Copyright © 2022 Tween Agency Co., Ltd.
-                                <br>Design: <a rel="nofollow" href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
-                            </div>
-
-                            <div class="col-lg-3 col-12 ms-auto">
-                                <ul class="social-icon">
-                                    <li><a href="#" class="social-icon-link bi-facebook"></a></li>
-
-                                    <li><a href="https://twitter.com/search?q=tooplate" class="social-icon-link bi-twitter"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
-
-                                    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+              </div>
             </div>
-        </footer>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <div class="detail-box">
+                    <div>
+                      <h2>
+                        welcome to
 
-        <!-- JAVASCRIPT FILES -->
-        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/popper.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.backstretch.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/magnific-popup-options.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/click-scroll.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
-    </body>
+                      </h2>
+                      <h1>
+                        web agency
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                      </p>
+                      <div class="">
+                        <a href="">
+                          Contact us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col">
+                  <div class="detail-box">
+                    <div>
+                      <h2>
+                        welcome to
+
+                      </h2>
+                      <h1>
+                        web agency
+                      </h1>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                      </p>
+                      <div class="">
+                        <a href="">
+                          Contact us
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- do section -->
+
+  <section class="do_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What we do
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+        </p>
+      </div>
+      <div class="do_container">
+        <div class="box arrow-start arrow_bg">
+          <div class="img-box">
+            <img src="images/d-1.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Marketing
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-middle arrow_bg">
+          <div class="img-box">
+            <img src="images/d-2.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Development
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-middle arrow_bg">
+          <div class="img-box">
+            <img src="images/d-3.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Html5
+            </h6>
+          </div>
+        </div>
+        <div class="box arrow-end arrow_bg">
+          <div class="img-box">
+            <img src="images/d-4.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Css
+            </h6>
+          </div>
+        </div>
+        <div class="box ">
+          <div class="img-box">
+            <img src="images/d-5.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h6>
+              Wordpress
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end do section -->
+
+  <!-- who section -->
+
+  <section class="who_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="img-box">
+            <img src="images/who-img.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                WHO WE ARE?
+              </h2>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud
+            </p>
+            <div>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end who section -->
+
+
+  <!-- work section -->
+  <section class="work_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          CREATIVE WORKS
+        </h2>
+        <p>
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation
+        </p>
+      </div>
+      <div class="work_container layout_padding2">
+        <div class="box b-1">
+          <img src="images/w-1.png" alt="">
+        </div>
+        <div class="box b-2">
+          <img src="images/w-2.png" alt="">
+
+        </div>
+        <div class="box b-3">
+          <img src="images/w-3.png" alt="">
+
+        </div>
+        <div class="box b-4">
+          <img src="images/w-4.png" alt="">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end work section -->
+
+  <!-- client section -->
+  <section class="client_section">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          WHAT CUSTOMERS SAY
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tempor incididunt <br>
+                  <span>
+                    Dipiscing elit
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                  Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tempor incididunt <br>
+                  <span>
+                    Dipiscing elit
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                  Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Tempor incididunt <br>
+                  <span>
+                    Dipiscing elit
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                  Dipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- target section -->
+  <section class="target_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              1000+
+            </h2>
+            <h5>
+              Years of Business
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              20000+
+            </h2>
+            <h5>
+              Projects Delivered
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              10000+
+            </h2>
+            <h5>
+              Satisfied Customers
+            </h5>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="detail-box">
+            <h2>
+              1500+
+            </h2>
+            <h5>
+              Cups of Coffee
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end target section -->
+
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container">
+
+      <div class="heading_container">
+        <h2>
+          Request A Call Back
+        </h2>
+      </div>
+      <div class="">
+        <div class="">
+          <div class="row">
+            <div class="col-md-9 mx-auto">
+              <div class="contact-form">
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="Full Name ">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Phone Number">
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email Address">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Message" class="input_message">
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn_on-hover">
+                      Send
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map_img-box">
+        <img src="images/map-img.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end contact section -->
+
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About Shop
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location-white.png" width="18px" alt="">
+              </div>
+              <p>
+                Address
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/telephone-white.png" width="12px" alt="">
+              </div>
+              <p>
+                +01 1234567890
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope-white.png" width="18px" alt="">
+              </div>
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Informations
+            </h5>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Instagram
+            </h5>
+            <div class="insta_container">
+              <div>
+                <a href="">
+                  <div class="insta-box b-1">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-2">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="">
+                  <div class="insta-box b-3">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+                <a href="">
+                  <div class="insta-box b-4">
+                    <img src="images/insta.png" alt="">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                Subscribe
+              </button>
+            </form>
+            <div class="social_box">
+              <a href="">
+                <img src="images/fb.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/twitter.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/linkedin.png" alt="">
+              </a>
+              <a href="">
+                <img src="images/youtube.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2020 All Rights Reserved By
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- owl carousel script 
+    -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+
+</body>
+
 </html>
