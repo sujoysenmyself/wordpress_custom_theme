@@ -15,14 +15,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
         <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
-                
-        <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 
-        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-icons.css">
 
-        <link href="css/tooplate-tween-agency.css" rel="stylesheet">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/magnific-popup.css">
+
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/tooplate-tween-agency.css">
 
 <!--
 
@@ -138,7 +138,7 @@ https://www.tooplate.com/view/2128-tween-agency
                                 <div class="tab-pane fade show active" id="nav-intro" role="tabpanel" aria-labelledby="nav-intro-tab">
                                     <div class="row">
                                         <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                                            <img src="images/webpage-browser-digital-icon-symbols-concept.jpg" class="img-fluid" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/webpage-browser-digital-icon-symbols-concept.jpg" class="img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-5 col-12 m-auto">
@@ -172,7 +172,7 @@ https://www.tooplate.com/view/2128-tween-agency
                                         </div>
 
                                         <div class="col-lg-6 col-12 mt-lg-0 mt-4">
-                                            <img src="images/dream-about-working-corporation-became-true.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/dream-about-working-corporation-became-true.jpg" class="img-fluid" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@ https://www.tooplate.com/view/2128-tween-agency
                                 <div class="tab-pane fade" id="nav-faq" role="tabpanel" aria-labelledby="nav-faq-tab">
                                     <div class="row">
                                         <div class="col-lg-6 col-12 mb-lg-0 mb-4">
-                                            <img src="images/php-programming-html-coding-cyberspace-concept.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/php-programming-html-coding-cyberspace-concept.jpg" class="img-fluid" alt="">
                                         </div>
 
                                         <div class="col-lg-5 col-12 m-auto">
@@ -252,7 +252,7 @@ https://www.tooplate.com/view/2128-tween-agency
                         <h2 class="mb-5 text-center">Digital Services</h2>
 
                             <div class="col-lg-4 col-12 d-flex bg-primary p-0">
-                                <img src="images/services/undraw_Online_page_re_lhgx.svg" class="img-fluid services-image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_Online_page_re_lhgx.svg" class="img-fluid services-image" alt="">
                             </div>
 
                             <div class="col-lg-4 col-12 p-0">
@@ -267,7 +267,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             </div>
 
                             <div class="col-lg-4 col-12 d-flex bg-warning p-0">
-                                <img src="images/services/undraw_online_transactions_02ka.svg" class="img-fluid services-image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_online_transactions_02ka.svg" class="img-fluid services-image" alt="">
                             </div>
 
                             <div class="col-lg-4 col-12 p-0 order-lg-0 order-sm-5">
@@ -283,7 +283,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             </div>
 
                             <div class="col-lg-4 col-12 d-flex bg-success p-0 order-lg-0 order-sm-4">
-                                <img src="images/services/undraw_content_team_3epn.svg" class="img-fluid services-image" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/undraw_content_team_3epn.svg" class="img-fluid services-image" alt="">
                             </div>
 
                             <div class="col-lg-4 col-12 p-0">
@@ -313,7 +313,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             <div class="work-thumb mb-4">
                                 <div class="work-image-wrap">
                                     <a href="images/work/anthony-espinosa-pYQSM-p_0_c-unsplash.jpg" class="image-popup">
-                                        <img src="images/work/anthony-espinosa-pYQSM-p_0_c-unsplash.jpg" class="img-fluid work-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/anthony-espinosa-pYQSM-p_0_c-unsplash.jpg" class="img-fluid work-image" alt="">
                                     </a>
                                 </div>
                                 
@@ -327,7 +327,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             <div class="work-thumb mb-4">
                                 <div class="work-image-wrap">
                                     <a href="images/work/samantha-gades-lf2pD--wIUA-unsplash.jpg" class="image-popup">
-                                        <img src="images/work/samantha-gades-lf2pD--wIUA-unsplash.jpg" class="img-fluid work-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/samantha-gades-lf2pD--wIUA-unsplash.jpg" class="img-fluid work-image" alt="">
                                     </a>
                                 </div>
                                 
@@ -343,7 +343,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             <div class="work-thumb mb-4">
                                 <div class="work-image-wrap">
                                     <a href="images/work/business-chart-visual-graphics-report-concept.jpg" class="image-popup">
-                                        <img src="images/work/business-chart-visual-graphics-report-concept.jpg" class="img-fluid work-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/business-chart-visual-graphics-report-concept.jpg" class="img-fluid work-image" alt="">
                                     </a>
                                 </div>
                                 
@@ -357,7 +357,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             <div class="work-thumb mb-4">
                                 <div class="work-image-wrap">
                                     <a href="images/work/tyler-nix-HmVQh_EQJhY-unsplash.jpg" class="image-popup">
-                                        <img src="images/work/tyler-nix-HmVQh_EQJhY-unsplash.jpg" class="img-fluid work-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/tyler-nix-HmVQh_EQJhY-unsplash.jpg" class="img-fluid work-image" alt="">
                                     </a>
                                 </div>
                                 
@@ -375,7 +375,7 @@ https://www.tooplate.com/view/2128-tween-agency
                             <div class="work-thumb mb-4">
                                 <div class="work-image-wrap">
                                     <a href="images/work/mos-sukjaroenkraisri-jz8AmJDyhig-unsplash.jpg" class="image-popup">
-                                        <img src="images/work/mos-sukjaroenkraisri-jz8AmJDyhig-unsplash.jpg" class="img-fluid work-image" alt="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/work/mos-sukjaroenkraisri-jz8AmJDyhig-unsplash.jpg" class="img-fluid work-image" alt="">
                                     </a>
                                 </div>
                                 
@@ -597,13 +597,13 @@ https://www.tooplate.com/view/2128-tween-agency
         </footer>
 
         <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.backstretch.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/magnific-popup-options.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/popper.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.backstretch.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.magnific-popup.min.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/magnific-popup-options.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/click-scroll.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
     </body>
 </html>
