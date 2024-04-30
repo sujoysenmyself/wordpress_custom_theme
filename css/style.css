@@ -6,6 +6,15 @@ ul.navbar-nav li a {
 /* Menu End */
 
 
+/* Active page highlight in menu is started */
+.current_page_parent a, .current-menu-item a{
+  background-color: #efb003;
+  padding: 10px !important;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+/* Active page highlight in menu is ended */
+
 body {
   font-family: "Poppins", sans-serif;
   color: #000000;
