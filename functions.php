@@ -8,3 +8,8 @@
 <?php
       add_theme_support('post-thumbnails');
  ?>  
+
+
+<?php
+      add_theme_support('custom-header');
+ ?>

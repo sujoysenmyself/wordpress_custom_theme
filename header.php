@@ -33,7 +33,10 @@
 <body>
     <!-- header section strats -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  <a class="navbar-brand text-light" href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo.jpg" style="max-width:70px;"></a>
+    <?php $logoimg = get_header_image(); ?>
+    <a href="<?php echo site_url(); ?>">
+          <img src = "<?php echo $logoimg ?>" width="80%">
+        </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
