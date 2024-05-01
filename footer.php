@@ -159,6 +159,11 @@
   </script>
   <!-- end owl carousel script -->
 
+  <!-- Display admin bar or tool bar is started -->
+
+  <?php wp_footer(); ?>
+
+  <!-- Display admin bar or tool bar is ended -->
 </body>
 
 </html>
