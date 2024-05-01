@@ -8,9 +8,9 @@ ul.navbar-nav li a {
 
 /* Active page highlight in menu is started */
 .current_page_parent a, .current-menu-item a{
-  background-color: #efb003;
+  background-color: #fbca47;
   padding: 10px !important;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-left: 50px;
 }
 /* Active page highlight in menu is ended */
