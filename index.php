@@ -19,7 +19,7 @@
                       <h5 class="card-title"><?php the_title() ?></h5>
                       <?php the_date() ?>
                       <p class="card-text"><?php the_excerpt() ?></p>
-                      <a href="#" class="btn btn-primary">See More</a>
+                      <a href="<?php the_permalink(); ?>" class="btn btn-primary">See More</a>
                     </div>
                   </div>
             </div>
