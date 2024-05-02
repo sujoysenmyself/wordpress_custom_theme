@@ -8,7 +8,7 @@
 <?php
  $imagepath = wp_get_attachment_image_src(get_post_thumbnail_id(),'large');  
 ?>
-<img class="img-fluid" src="<?php echo $imagepath[0] ?>" >
+<img class="img-fluid" src="<?php echo $imagepath[0] ?>" width="100%">
 
 
 <h3>
