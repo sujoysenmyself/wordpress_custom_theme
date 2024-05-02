@@ -27,6 +27,13 @@
               }
           ?>  
         </div>
+
+
+        <?php
+          echo wp_pagenavi();
+        ?>
+
+
     </div>
     <!-- Body Contend is ended here -->
 

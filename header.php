@@ -28,6 +28,13 @@
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/responsive.css" rel="stylesheet" />
+
+
+ <?php
+  wp_head()
+  ?>
+
+  
 </head>
 
 <body>
